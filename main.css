@@ -1,0 +1,51 @@
+*,
+*:before,
+*:after {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+
+html {
+    font-size:62.5%;
+}
+
+body {
+    font-size:1.8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* navigation */
+ul {
+    display:flex;
+    gap:1.8rem;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    list-style-type: none;
+    padding:2rem;
+}
+
+#hero {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 1rem;
+    min-height: 70rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover, a:active {
+    text-decoration: none;
+    color: black;
+}
